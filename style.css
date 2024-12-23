@@ -1,0 +1,176 @@
+* {
+    font-family: "Fira Code", serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+body {
+    background: #282C33;
+}
+
+p {
+    margin: 0;
+}а
+
+.qr {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.container {
+    width: 1180px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+
+.header-section__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header-section__title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.header-section__text {
+    color: #ABB2BF;
+}
+
+.text-purple {
+    color: #C778DD;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.btn {
+    background: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 1px solid #C778DD;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    display: flex;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-card {
+    border: 1px solid #ABB2BF;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.project-card__language {
+    padding: 10px;
+    border-bottom: 1px solid #ABB2BF;
+}
+
+.project-card__main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.project-card__title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.project-card__text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ABB2BF;
+}
+
+.project-section__content {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
+
+.language-content__wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.language-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.language-section__wrapper {
+    display: flex;
+}
+
+.btn:hover {
+    background: #454545;
+    transition: ease-in-out 0.1s;
+    transform: scale(1.05);
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.about-section__text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grey-text {
+    text-decoration: underline;
+    color: #ABB2BF;
+}
+
+.footer-section {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-top: 2px solid #ABB2BF;
+    align-items: center;
+}
+
+.footer-section__img {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
